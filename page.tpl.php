@@ -40,14 +40,7 @@
 
 <div id="main_container" class="container" style="margin-top:30px;">
 	<div class="span-14" style="margin-bottom:20px;">
-		<div id="breadcrum_back">
-			
-			<?php /*
-			<ul id="breadcrum">	
-				<li><a href="/"><span>Home</span></a></li>
-				<li><a href="/"><span>Focus Area</span></a></li>
-			</ul>
-			*/?>
+		<div id="breadcrum_back">			
 			<?php print $breadcrumb ?>
 			<div class="clear"></div>
 		</div>
@@ -63,6 +56,10 @@
 	<div class="span-3 last">
 		<?php if ($right) { ?>
 	      <?php print $right ?>
+		<?php } ?>
+
+		<?php if ($left) { ?>
+	      <?php print $left ?>
 		<?php } ?>
 	</div>
 	<div class="span-14" style="display:none;">
