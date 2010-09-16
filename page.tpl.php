@@ -41,10 +41,13 @@
 <div id="main_container" class="container" style="margin-top:30px;">
 	<div class="span-14" style="margin-bottom:20px;">
 		<div id="breadcrum_back">
+			
+			<?php /*
 			<ul id="breadcrum">	
 				<li><a href="/"><span>Home</span></a></li>
 				<li><a href="/"><span>Focus Area</span></a></li>
 			</ul>
+			*/?>
 			<?php print $breadcrumb ?>
 			<div class="clear"></div>
 		</div>
