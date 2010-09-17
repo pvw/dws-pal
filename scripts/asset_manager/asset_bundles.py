@@ -3,7 +3,7 @@ ASSET_BUNDLES = {
     'dws_style': {
         'type': 'css',
         'path': 'css/',
-        'compress': False,
+        'compress': True,
         'files': [
             'reset.css',
             'grid.css',
