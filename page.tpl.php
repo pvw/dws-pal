@@ -19,8 +19,8 @@
 		<link rel="stylesheet" href="css/build/pvw_ie6_style_raw.css" type="text/css" charset="utf-8">
 	<![endif]-->
 		
-	<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" />
-	<link rel="alternate" type="application/rss+xml" title="Blog entries" href="/blog/?feed=rss2" />
+	<?php /*<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" /> */?>
+	<link rel="alternate" type="application/rss+xml" title="Blog entries" href="/news/?feed=rss2" />
 	<link rel="alternate" type="application/rss+xml" title="Project updates" href="/rsr/rss/all-updates" />
 	
 	</head>
