@@ -16,7 +16,7 @@
 	<script type="text/javascript"><?php /* Needed to avoid Flash of Unstyle Content in IE */ ?> </script>
 	
 	<!--[if IE 6]>
-		<link rel="stylesheet" href="css/build/pvw_ie6_style_raw.css" type="text/css" charset="utf-8">
+		<link rel="stylesheet" href="css/build/dws_style_ie6_raw.css" type="text/css" charset="utf-8">
 	<![endif]-->
 		
 	<?php /*<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" /> */?>
