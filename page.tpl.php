@@ -72,7 +72,7 @@
 
 	<p class="small grey">
 		Site under 
-		<a href="/web/open_license">Open licence</a> &nbsp;|&nbsp;
+		<a href="/web/open_license">open licence</a> &nbsp;|&nbsp;
 		<a href="/web/terms_of_use">Terms of use</a> &nbsp;|&nbsp;
 		<a href="/web/donation_policy">Privacy policy</a> &nbsp;|&nbsp;
 		<a href="/web/credits">Credits</a> &nbsp;|&nbsp;
