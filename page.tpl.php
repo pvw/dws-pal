@@ -79,7 +79,8 @@
 		<a href="/web/admin">Admin</a>
         
         <a href="/web/contact_us" style="margin-left:30px;">Contact us</a>
-        <img src="<?php echo path_to_theme() ?>/img/holland_logo_oranje_74x25.gif" style="float: right; margin-top: -6px;"/>
+        
+        <img src="<?php print base_path() . path_to_theme() .'/' ?>img/holland_logo_oranje_74x25.gif" style="float: right; margin-top: -6px;"/>
 	</p>
 </div>
 <?php print $closure ?>
