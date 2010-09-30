@@ -74,9 +74,9 @@
 		Site under 
 		<a href="/web/open_license">open licence</a> &nbsp;|&nbsp;
 		<a href="/web/terms_of_use">Terms of use</a> &nbsp;|&nbsp;
-		<a href="/web/donation_policy">Privacy policy</a> &nbsp;|&nbsp;
+		<a href="/web/privacy_policy">Privacy policy</a> &nbsp;|&nbsp;
 		<a href="/web/credits">Credits</a> &nbsp;|&nbsp;
-		<a href="/web/?q=user">Admin</a>
+		<a href="/web/admin">Admin</a>
         
         <a href="/web/contact_us" style="margin-left:30px;">Contact us</a>
         <img src="<?php echo path_to_theme() ?>/img/holland_logo_oranje_74x25.gif" style="float: right; margin-top: -6px;"/>
