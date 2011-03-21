@@ -8,7 +8,6 @@ ul#main_nav {
     padding:0;
     background:#FE7A2C url(../../img/mainnav/background.png) repeat-x;
     height:41px;
-    padding-left:242px;
     }
 
 ul#main_nav li {
@@ -34,13 +33,10 @@ ul#main_nav li a {
     /*-webkit-transition:background-color .2s ease-out;*/
     }
 
-ul#main_nav li a:hover, ul#main_nav li.active-trail a {   
+ul#main_nav li a:hover, ul#main_nav li a.active, ul#main_nav li a.active-trail {   
     background: transparent url(../../img/mainnav/background_hover2.png) no-repeat center bottom;
     text-decoration: none;
     }
-
-
-
 
 ul#main_nav li a span {
     display: block;
@@ -54,7 +50,6 @@ ul#main_nav li a span {
     }
 
 
-/*
 a#main_nav_left {
     background-color:#fff !important;
     color:#0078B5 !important;
@@ -71,7 +66,6 @@ a#main_nav_left:hover {
 a#main_nav_left span {
     text-align:left !important;
     }
-*/
 
 li#mainnav_right {
     float:right;
@@ -80,9 +74,3 @@ li#mainnav_right {
 li#mainnav_right a {
     margin-right:20px !important;
     }
-
-    
-
-    
-
-

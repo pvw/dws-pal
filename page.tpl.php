@@ -22,17 +22,12 @@
 	<?php /*<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" /> */?>
 	<link rel="alternate" type="application/rss+xml" title="Blog entries" href="/news/?feed=rss2" />
 	<link rel="alternate" type="application/rss+xml" title="Project updates" href="/rsr/rss/all-updates" />
-	
 	</head>
 <body>
 <div id="header_container" class="container">
-	<a href="/">
-		<img src="<?php print $logo ?>" width="222" height="41" 
-			alt="<?php print $site_name ?>" style="float:left;">
-	</a>
-	<?php if (isset($primary_links)) { ?>
-		<?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'main_nav')) ?>
-	<?php } ?>
+    <?php if (isset($primary_links)) { ?>
+    	<?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'main_nav')) ?>
+    <?php } ?>
 </div>
 
 <?php /* print $header */ ?>

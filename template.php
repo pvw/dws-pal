@@ -1,24 +1,33 @@
 <?php
 
 function dws_menu_item_link($link) {
-  if (empty($link['localized_options'])) {
-    $link['localized_options'] = array();
-  }
-  $link['title'] = $link['title'] = '<span class="link">' . check_plain($link['title']) . '</span>';
-  $link['localized_options'] += array('html'=> TRUE);
-  return l($link['title'], $link['href'], $link['localized_options']);
+    if (empty($link['localized_options'])) {
+        $link['localized_options'] = array();
+    }
+    $link['localized_options'] += array('html'=> TRUE);
+    return l($link['title'], $link['href'], $link['localized_options']);
 }
 
 
 function dws_preprocess_page(&$vars) {
+
+	// Massage the primary links with "<span>title</span>".
 	$links = $vars['primary_links'];
 	foreach ($links as $key => $link) {
 		$links[$key]['html'] = true;
 		$links[$key]['title'] = '<span>'. $link['title'] . '</span>';
 	}
-	$vars['primary_links'] = $links;
+	
+    // Create the DWS logo item (without <span>)
+	$first_link = array("first_item"=> array ());
+	$first_link["first_item"]["attributes"] = array("title" => "DWS Logo");
+	$first_link["first_item"]["href"] = $base_url . $base_path;
+	$first_link["first_item"]["title"] = '<img src="/dws/themes/dws/logo.png" width="222" height="41" alt="DutchWaterSector" style="margin:0;padding:0;">';	
+	$first_link["first_item"]["html"] = true;
+    
+    // Add the DWS logo item first to the primary links array
+	$vars['primary_links'] = $first_link + $links;
 }
-
 
 function phptemplate_breadcrumb($breadcrumb) {
     $title = drupal_get_title();

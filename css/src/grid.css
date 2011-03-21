@@ -119,14 +119,14 @@ input.span-14, textarea.span-14 {width: 963px;}
 .border {
   padding-right: 9px;
   margin-right: 9px;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #DDDDDD;
 }
 
 /* Border with more whitespace, spans one column. */
 .colborder {
   padding-right: 44px;
   margin-right: 45px;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #DDDDDD;
 }
 
 
@@ -176,7 +176,13 @@ next column, or to pull it into the previous column.  */
   margin-top:1.5em;
 }
 .append-bottom {
-  margin-bottom:1.5em;
+  margin-bottom: 1.5em;
+}
+.gutter-top {
+  margin-top: 19px;
+}
+.gutter-bottom {
+  margin-bottom: 19px;
 }
 
 /* Use a .box to create a padded box inside a column.  */
