@@ -23,7 +23,8 @@ function dws_preprocess_page(&$vars) {
     
 	$first_link = array("first_item"=> array ());
 	$first_link["first_item"]["attributes"] = array("title" => "DWS Logo");
-	$first_link["first_item"]["href"] = $base_url . $base_path;
+	//$first_link["first_item"]["href"] = $base_url . $base_path;
+	$first_link["first_item"]["href"] = 'http://' . $_SERVER['HTTP_HOST'];
 	$first_link["first_item"]["title"] = '<img src="' . $site_path .'themes/dws/logo.png" width="222" height="41" alt="DutchWaterSector" style="margin:0;padding:0;">';	
 	$first_link["first_item"]["html"] = true;
     
