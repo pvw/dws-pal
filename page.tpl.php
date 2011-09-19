@@ -68,12 +68,8 @@
 	<p class="small grey">
 		Site under 
 		<a href="/web/open_license">open licence</a> &nbsp;|&nbsp;
-		<a href="/web/terms_of_use">Terms of use</a> &nbsp;|&nbsp;
-		<a href="/web/privacy_policy">Privacy policy</a> &nbsp;|&nbsp;
-		<a href="/web/credits">Credits</a> &nbsp;|&nbsp;
-		<a href="/web/admin">Admin</a>
-        
-        <a href="/web/contact_us" style="margin-left:30px;">Contact us</a>
+		<a href="/web/disclaimer">Disclaimer</a> &nbsp;|&nbsp;
+		<a href="/web/contact_us">Contact us</a>
         
         <img src="<?php print base_path() . path_to_theme() .'/' ?>img/holland_logo_oranje_74x25.gif" style="float: right; margin-top: -6px;"/>
 	</p>
